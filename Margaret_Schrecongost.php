@@ -100,18 +100,20 @@
         </table>
     </div>
     <div name="form">
-        <form method="POST" name="nameform">
-            <input type="text" name="name" placeholder="Type_Name_Here">
-            <input type="text" name="email" placeholder="Email_Address">
+        <form action="M_S_forms.php" method="POST" name="nameform">
+            Name: <input type="text" name="name" placeholder="Type_Name_Here">
+            Email: <input type="text" name="email" placeholder="Email_Address">
             <input type="submit" name="submit-btn" value="Go">
         </form>
-    </div>
-    <?php
+        <?php 
     if (isset($_Post['submit-btn'])) {
         $name = $_Post['name'];
         $email = $_Post['email'];
         echo "<p>Info Entered:" . $name . ' ' . $email. "</p>";
-    }?>
+    }
+    ?>
+    </div>
+   
     <div name=textimput>
         <form method="---.php">
             <label for="Comments"> Comments, I wanna hear from you :)</label>
