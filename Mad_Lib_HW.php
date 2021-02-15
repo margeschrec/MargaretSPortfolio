@@ -6,11 +6,11 @@
     <h1> Mad Lib Week 2 </h1>
     <div id="form">
         <form action="Mad_Lib_HW.php" method="post" name='madlib'>
-            color <input type="text" name="color"></br>
-            name <input type="text" name="name"></br>
-            place <input type="text" name="place"></br>
-            food <input type="text" name="food"></br>
-            <input type="submit" name="submit-btn" value="Go" />
+            color <input type="text" name="color"/></br>
+            name <input type="text" name="name"/></br>
+            place <input type="text" name="place"/></br>
+            food <input type="text" name="food"/></br>
+            <input type="submit" name="submit-btn" value="Go"/>
         </form>
     </div>
     </br>
