@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <div id="intro">
+    <div class="text" id="intro">
         <h1>Artist-Painter</h1>
         <p>My name is Margaret Schrecongost, I am a visual artist born and raised in Buffalo Ny. </p>
         <br>
@@ -23,32 +23,42 @@
     </div>
 </br>
     <div id="FantasyGrowth">
-        <img src="images/Home_Page/Fantasy_Growth.jpg" width="1198" height="848" class="center" />
+        <img src="images/Home_Page/Fantasy_Growth.jpg" width="1198" height="848" />
     </div>
+    <div id="FGList">
         <ul>
             <li>Oil on Canvas</li>
             <li>8'x5'</li>
             <li>2019</li>
         </ul>
-    <div id="FGDetails">
-        <img src="images/Home_Page/F_G_Detail/F_D_01.jpg" width="300" height="150" />
-        <img src="images/Home_Page/F_G_Detail/F_D_02.jpg" width="300" height="150" />
-        <img src="images/Home_Page/F_G_Detail/F_D_03.jpg" width="300" height="150" />
-        <img src="images/Home_Page/F_G_Detail/F_D_04.jpg" width="300" height="150" />
+    </div>
+    <div class="FGD">
+       
+            <img src="images/Home_Page/F_G_Detail/F_D_01.jpg" width="300" height="150" />
+         
+         
+            <img src="images/Home_Page/F_G_Detail/F_D_02.jpg" width="300" height="150" />
+        
+        
+            <img src="images/Home_Page/F_G_Detail/F_D_03.jpg" width="300" height="150" />
+        
+       
+            <img src="images/Home_Page/F_G_Detail/F_D_04.jpg" width="300" height="150" />
+        
     </div>
     <br />
-    <div id="process">
+    <div class="text" id="process">
         <h2>Figurative Oil Painting in 2021</h2>
         <p>All work starts from a strong foundation built on sketches. These in turn are complied into a composition
             that gets tested for color through a digital drawing platform<br>I build the frames and stretch the canvas
             myself. </p>
     </div>
 </br>
-    <div id="CV">
-        <P>Below I have included a link to my CV</P>
+    <div class="text" id="CV">
+        <h2>Below I have included a link to my CV</h2>
         <a href="link_pages/M_S_CV.htm" blank="target"> Link to CV</a>
     </div>
-    <div id="portlinks">
+    <div class="art" id="portlinks">
         <H2>Paintings 2015-2020</H2>
         <p></p>
         <a href="https://www.margaretschrecongost.com/" target="blank"> 
@@ -59,11 +69,11 @@
             <img src="images/Home_Page/H_P_Detail/2019_D.jpg" width="300" height="300" />
         </a>
         <div id="desc"> 2019 </div>
-        <a href="https://www.margaretschrecongost.com/mybodymycorpse" target="blank"> 
+        <a href="https://www.margaretschrecongost.com/mybodymycorpse" class="portart" target="blank"> 
             <img src="images/Home_Page/H_P_Detail/2018_D.jpg" width="300" height="300" />
         </a>
         <div id="desc"> 2018 </div>
-        <a href="https://www.margaretschrecongost.com/new-gallery" target="blank">
+        <a href="https://www.margaretschrecongost.com/new-gallery" class="portart" target="blank">
             <img src="images/Home_Page/H_P_Detail/2017_D.jpg" width="300" height="300" />
         </a>
         <div id="desc"> 2017 </div>
@@ -100,7 +110,7 @@
         </table>
     </div>
     <div name="form">
-        <form action="M_S_forms.php" method="POST" name="nameform">
+        <form action="Margaret_Schrecongost.php" method="POST" name="nameform">
             Name: <input type="text" name="name" placeholder="Type_Name_Here">
             Email: <input type="text" name="email" placeholder="Email_Address">
             <input type="submit" name="submit-btn" value="Go">
@@ -115,16 +125,13 @@
     </div>
    
     <div name=textimput>
-        <form method="---.php">
-            <label for="Comments"> Comments, I wanna hear from you :)</label>
+        <form method="Margaret_Schrecongost.php">
+            <label for="Comments"> Comments, I wanna hear from you :)</label></br>
             <textarea id="Comments" name="Comments" rows="5" cols="70">
                 Your reply here.
             </textarea>
             </br>
             <input type="submit" value="Submit">
-        </form>
-    </div>
-
         </form>
     </div>
 </body>
