@@ -10,6 +10,24 @@ p, h1, h2, h3, ul {
 body {
   background-color: gray;
 }
+#nav-bar{
+  background-color: black;
+  color:#999;
+}
+#nav-bar ul{
+  padding: 20px;
+  list-style: none;
+}
+#nav-bar li{
+  display: inline;
+  text-transform: uppercase;
+}
+#nav-bar a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
 .text {
   display: block;
   text-align: center;
@@ -44,9 +62,6 @@ body {
   border-radius: 10px;
   font-size: 22px;
   font-weight: bold;
-}
-#portlinks .portart{
-  border: fuchsia;
 }
 
 

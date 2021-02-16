@@ -7,6 +7,15 @@
 </head>
 
 <body>
+    <nav id="nav-bar">
+        <ul>
+            <li><a href="Margaret_Schrecongost.php" class="navlinks">Home</a></li>
+            <li><a href="M_S_Portfolio.html" class="navlinks">Portfolio</a></li>
+            <li><a href="M_S_CV.html" class="navlinks">CV</a></li>
+            <li><a href="M_S_Inspo.html" class="navlinks">Inspiration</a></li>
+            <li><a href="M_S_Contact.php" class="navlinks">Contact</a></li>
+        </ul>
+    </nav>
     <div class="text" id="intro">
         <h1>Artist-Painter</h1>
         <p>My name is Margaret Schrecongost, I am a visual artist born and raised in Buffalo Ny. </p>
@@ -58,30 +67,7 @@
         <h2>Below I have included a link to my CV</h2>
         <a href="link_pages/M_S_CV.htm" blank="target"> Link to CV</a>
     </div>
-    <div class="art" id="portlinks">
-        <H2>Paintings 2015-2020</H2>
-        <p></p>
-        <a href="https://www.margaretschrecongost.com/" target="blank"> 
-            <img src="images/Home_Page/H_P_Detail/2020_D.jpg" width="300" height="300" />
-        </a>
-        <div id="desc"> 2020 </div>
-        <a href="https://www.margaretschrecongost.com/2019" target="blank"> 
-            <img src="images/Home_Page/H_P_Detail/2019_D.jpg" width="300" height="300" />
-        </a>
-        <div id="desc"> 2019 </div>
-        <a href="https://www.margaretschrecongost.com/mybodymycorpse" class="portart" target="blank"> 
-            <img src="images/Home_Page/H_P_Detail/2018_D.jpg" width="300" height="300" />
-        </a>
-        <div id="desc"> 2018 </div>
-        <a href="https://www.margaretschrecongost.com/new-gallery" class="portart" target="blank">
-            <img src="images/Home_Page/H_P_Detail/2017_D.jpg" width="300" height="300" />
-        </a>
-        <div id="desc"> 2017 </div>
-        <a href="https://www.margaretschrecongost.com/2016" target="blank">
-            <img src="images/Home_Page/H_P_Detail/2016_D.jpg" width="300" height="300" />
-        </a>
-        <div id="desc"> 2016 </div>
-    </div>
+  
     <div id="continspo">
         <a href="link_pages/Inspo_Page.htm" target="blank">
             <h2>Inspiration / Active Figurative Artists </h2>
@@ -109,31 +95,7 @@
                 </thead>
         </table>
     </div>
-    <div name="form">
-        <form action="Margaret_Schrecongost.php" method="POST" name="nameform">
-            Name: <input type="text" name="name" placeholder="Type_Name_Here">
-            Email: <input type="text" name="email" placeholder="Email_Address">
-            <input type="submit" name="submit-btn" value="Go">
-        </form>
-        <?php 
-    if (isset($_Post['submit-btn'])) {
-        $name = $_Post['name'];
-        $email = $_Post['email'];
-        echo "<p>Info Entered:" . $name . ' ' . $email. "</p>";
-    }
-    ?>
-    </div>
    
-    <div name=textimput>
-        <form method="Margaret_Schrecongost.php">
-            <label for="Comments"> Comments, I wanna hear from you :)</label></br>
-            <textarea id="Comments" name="Comments" rows="5" cols="70">
-                Your reply here.
-            </textarea>
-            </br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
 </body>
 
 </html>
