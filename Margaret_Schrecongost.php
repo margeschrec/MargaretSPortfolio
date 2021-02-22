@@ -11,12 +11,14 @@
         <ul>
             <li><a href="Margaret_Schrecongost.php" class="navlinks">Home</a></li>
             <li><a href="M_S_Portfolio.html" class="navlinks">Portfolio</a></li>
+            <li><a href="M_S_Process.html" class="navlinks">Process</a></li>
             <li><a href="M_S_CV.html" class="navlinks">CV</a></li>
             <li><a href="M_S_Inspo.html" class="navlinks">Inspiration</a></li>
             <li><a href="M_S_Contact.php" class="navlinks">Contact</a></li>
         </ul>
     </nav>
-    <div class="text" id="intro">
+<div class="home-page">
+    <div class="text">
         <h1>Artist-Painter</h1>
         <p>My name is Margaret Schrecongost, I am a visual artist born and raised in Buffalo Ny. </p>
         <br>
@@ -30,13 +32,13 @@
             temper the anxiety of the future. Tension, anxiety, humor. </p>
 
     </div>
-</br>
+    </br>
     <div id="FantasyGrowth">
         <img src="images/Home_Page/Fantasy_Growth.jpg" width="1198" height="848" />
     </div>
-    <div id="FGList">
+    <div class="text" id="FGList">
         <ul>
-            <li>Oil on Canvas</li>
+            <li>"Fantasy Growth" Oil on Canvas</li>
             <li>8'x5'</li>
             <li>2019</li>
         </ul>
@@ -57,22 +59,17 @@
     </div>
     <br />
     <div class="text" id="process">
-        <h2>Figurative Oil Painting in 2021</h2>
+        <h2>Process</h2>
         <p>All work starts from a strong foundation built on sketches. These in turn are complied into a composition
             that gets tested for color through a digital drawing platform<br>I build the frames and stretch the canvas
             myself. </p>
     </div>
-</br>
-    <div class="text" id="CV">
-        <h2>Below I have included a link to my CV</h2>
-        <a href="link_pages/M_S_CV.htm" blank="target"> Link to CV</a>
-    </div>
-  
-    <div id="continspo">
-        <a href="link_pages/Inspo_Page.htm" target="blank">
-            <h2>Inspiration / Active Figurative Artists </h2>
-        </a>
-    </div>
+    </br>
+    <div class="text" id="paintingtoday">
+        <h2>Painting the Figure</h2>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nulla vel, sapiente nostrum natus dicta similique amet molestiae tenetur cupiditate consectetur expedita eaque? Quo, vitae excepturi accusamus dolorum tenetur tempora!</p>
+        </div>
+
     <div id="tablecontact">
         <table>
             <thead>
@@ -95,7 +92,8 @@
                 </thead>
         </table>
     </div>
+</div>
+
    
 </body>
-
 </html>

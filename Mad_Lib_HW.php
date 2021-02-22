@@ -43,7 +43,7 @@
         }
 
         
-        
+        {
         $color = $_POST["color"];
         $name = $_POST["name"];
         $place = $_POST["place"];
@@ -51,7 +51,7 @@
         echo ("My $color cat is named $name </br>"); 
         echo ("They are from $place </br>");
         echo ("You can tell, because they eat $food </br>");
-    } 
+        }
     ?>
   
 </body> 
