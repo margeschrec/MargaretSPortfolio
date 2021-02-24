@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MSchrecongost, Contact</title>
-    <link rel="stylesheet" href="css/Margaret_Schrecongost.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-</head>
-
-<Body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MSchrecongost, Portfolio</title>
+        <link rel="stylesheet" href="css/Margaret_Schrecongost.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+</html>
+<body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
@@ -39,33 +38,33 @@
             </div>
         </div>
     </nav>
-    <div class="contactform">
-        <form action="Margaret_Schrecongost.php" method="POST" name="contactform">
-            <div class="cf-group">
-                <label>Name:</label><input type="text" name="name" placeholder="Type_Name_Here">
-            </div>
-            <div class="cf-group">
-                <label>Email:</label><input type="text" name="email" placeholder="Email_Address">
-            </div>
-            <div class="cf-group">
-                <label for="Comments"> Comments, I wanna hear from you :)</label></br>
-                <textarea id="Comments" name="Comments" rows="5" cols="70"></textarea>
-            </div>
-            </br>
-            <input class="button" type="submit" value="Submit">
-        </form>
-        <?php
-        if (isset($_Post['submit-btn'])) {
-            $name = $_Post['name'];
-            $email = $_Post['email'];
-            echo "<p>Info Entered:" . $name . ' ' . $email . "</p>";
-        }
-        ?>
-    </div>
-
-    </form>
+    <nav id="nav-bar">
+    <div class="portlinks">
+        <H2>Paintings 2015-2020</H2>
+        <p></p>
+        <div class="clickart">
+                <a href="https://www.margaretschrecongost.com/" target="blank">
+                <img class="clickart_img" src="images/Home_Page/H_P_Detail/2020_D.jpg"/>
+            </a>
+            <div class="desc"> 2020 </div>
+        </div>
+        
+        <a href="https://www.margaretschrecongost.com/2019" target="blank"> 
+            <img src="images/Home_Page/H_P_Detail/2019_D.jpg" width="300" height="300" class="clickart"/>
+        </a>
+        <div id="desc"> 2019 </div>
+        <a href="https://www.margaretschrecongost.com/mybodymycorpse" class="portart" target="blank"> 
+            <img src="images/Home_Page/H_P_Detail/2018_D.jpg" width="300" height="300" class="clickart"/>
+        </a>
+        <div id="desc"> 2018 </div>
+        <a href="https://www.margaretschrecongost.com/new-gallery" class="portart" target="blank">
+            <img src="images/Home_Page/H_P_Detail/2017_D.jpg" width="300" height="300" class="clickart"/>
+        </a>
+        <div id="desc"> 2017 </div>
+        <a href="https://www.margaretschrecongost.com/2016" target="blank">
+            <img src="images/Home_Page/H_P_Detail/2016_D.jpg" width="300" height="300" class="clickart" />
+        </a>
+        <div id="desc"> 2016 </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-</Body>
-
-</html>
+</body>
