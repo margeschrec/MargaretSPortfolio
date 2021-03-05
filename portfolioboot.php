@@ -1,12 +1,17 @@
 <!DOCTYPE html>
+<html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/Margaret_Schrecongost.css">
+    <title>MSchrecongost, Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <title>MSchrecongost Process</title>
+    <link rel="stylesheet" href="css/Margaret_Schrecongost.css" />
 </head>
+
+</html>
+
 <body>
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,25 +41,21 @@
             </div>
         </div>
     </nav>
-    <nav id="nav-bar">
-    
-    <div class="text">
-        <h1>Process</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur possimus optio aliquid omnis quidem enim perferendis corrupti hic at? Corrupti pariatur, eligendi qui voluptatem deleniti exercitationem nobis unde dolorem itaque.</p>
-    </div>
-    <div class=Pimg>
-
-    </div>
-    <div class="text">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cumque hic consequatur. Commodi consectetur est totam cumque, ipsum deleniti facilis fugit explicabo harum nobis? Repellendus voluptatibus magnam accusantium molestias reprehenderit!</p>
-    </div>
-    <div class=Pimg>
-        
-    </div>
-    <div class="text" >
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam inventore totam aliquid pariatur, sed sint odio earum aut suscipit sapiente alias. Magnam commodi molestias exercitationem nisi cumque veniam pariatur id.</p>
-    </div>
-    <div class=Pimg>
-        
+    <div class="container-lg">
+        <div class="conatiner-fluid">
+            <div class="row gy-4">
+                <div class="text col-10">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi optio nam rem, omnis qui pariatur iste aliquid voluptatibus harum fugiat, laborum ducimus sunt iure culpa veritatis asperiores quia dolores inventore.</p>
+                </div>
+                <div class="col-md-4"><img src="/class_work/images/Home_Page/H_P_Detail/2016_D.jpg" alt="Portfolio images" class="img-fluid thumbnail"></div>
+                <div class="col-md-4"><img src="/class_work/images/Home_Page/H_P_Detail/2016_D.jpg" alt="Portfolio images" class="img-fluid thumbnail"></div>
+                <div class="col-md-4"><img src="/class_work/images/Home_Page/H_P_Detail/2016_D.jpg" alt="Portfolio images" class="img-fluid thumbnail"></div>
+                <div class="col-md-4"><img src="/class_work/images/Home_Page/H_P_Detail/2016_D.jpg" alt="Portfolio images" class="img-fluid thumbnail"></div>
+                <div class="col-md-4"><img src="/class_work/images/Home_Page/H_P_Detail/2016_D.jpg" alt="Portfolio images" class="img-fluid thumbnail"></div>
+                <div class="col-md-4"><img src="/class_work/images/Home_Page/H_P_Detail/2016_D.jpg" alt="Portfolio images" class="img-fluid thumbnail"></div>
+            </div>
+        </div>
     </div>
 </body>
+
+</html>

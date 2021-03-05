@@ -3,6 +3,7 @@ body {
   background-color: gray;
 }
 .navbar{
+  position: sticky;
   background-color: black;
   color:#999;
 }
@@ -23,11 +24,19 @@ body {
 .dropdown-menu.show{
   background-color: #212529;
 }
+.container{
+  padding-top: 70px;
+}
+.col-md-4 img{
+  border:black;
+  border-style: double;
+  border-radius: 10px;
+}
 .text{
   font-family: Verdana, sans-serif;
   text-align: center;
   width: 75%;
-  margin: 30px auto;
+  margin: 0px auto;
   padding: 15px 10px;
   border-radius: 10px;
   border-style: double;
