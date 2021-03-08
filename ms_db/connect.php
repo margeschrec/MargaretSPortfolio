@@ -1,4 +1,26 @@
 <?php
+const DB_HOST = "localhost";
+const DB_NAME = "mswebsite";
+const DB_USERNAME = "root";
+const DB_PASSWORD = "";
+
+function connect($dbHost, $$dbName, $dbUsername, $dbPassword){
+    $db = new mysqli($dbHost,
+     $dbPassword,
+      $dbUsername,
+       $dbPassword
+    );
+    if($db->connect_error){
+        die("Cannot connect to database: \n"
+        . $db->connect_error) . "\n"
+        . $db->connect_errno
+    );
+    }
+    return $db;
+}
+
+
+
 function dbConn(): mysqli
 {
   $servername = "localhost";

@@ -21,17 +21,19 @@ body {
   color:#999;
 }
 .navbar ul{
-  padding: 20px;
+  padding: 0px;
+  margin: 0px;
   list-style: none;
 }
 .navbar li{
+  padding: 0px;
   display: inline;
   text-transform: uppercase;
 }
 .navbar a{
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   padding-right: 15px;
 }
 .dropdown-menu.show{
