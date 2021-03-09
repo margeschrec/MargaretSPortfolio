@@ -26,7 +26,7 @@
                 </ul>
             </div>
             <div class="col-9">
-                <H2>Paintings 2018-2019</H2>
+                <H2>Paintings 2016-2017</H2>
             </div>
         </div>
         <div class="row gallery">

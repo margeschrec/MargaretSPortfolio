@@ -19,7 +19,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://photos.app.goo.gl/MJ2vvyqkDmCJa7bH6" class="d-block w-100" alt="...">
+                    <img src="https://lh3.googleusercontent.com/uccSKQGNMmt9uO1UM5LvZIVgB1SpimfUp0BLD2l9Uye1q8tZ-mhC1sa8Dt6rxoD_WycEeKe-6EdmzT4oADNfWaBY6s_NFP5YfjqggrUbYgHs6K0lYxdtCbaAkq3JO3YqAHqDZO9twQ7iqxIxOWz8Ypw7AUBFsx_i8LEILQXIpmN56H6yXv_5rBNOXNlwtr3Ea0byCaMxpmwBMbT2uQrEFp5kIS50B0Q9hzFAxLf_lcDIFbP7ebUt56TxtxlXk37xPvV9lqseVgMHBfKNFixGK74MYY8WiYFb3kYJa4JsfymrzHF6BuvkIAzmEYAXFkjFCiZjF3BKaexAWmFewV2Dz-urZT6v1Qx2PECC3OwrIoyg2MT0Y1E4_G3P33N4Chj_ZMD_BE5PUHh28Jn443ArzOUsC5ZLeFZ-3hnbJamYJ2qpLhguqPNgQ518hzuO7nUMF5JUq6S8BfpCXdkvVYftBLgFqsjkX4G32_mdoT8NgC3xmYNpyM4mUlc7Q0g7KIXDn-5eSEBIhqfyHOL65E5xOZT4WP1eimB3yZlRGt2jUcV0r7KJTYNzPABQyEGq15boXzMY45hiKa7oO1A1PvXKhlFoP4yVDlqhgsVm5yldw1aeeYmWxuGUPNifg9ssHkkX6Z19beTA76FANMGpodUKX7HuB-J2zE1fSNhGpuhsPnahWFc0g1DwSGA8oGtx=w1262-h946-no?authuser=0" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
@@ -53,7 +53,7 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-lg-4 col-sm-12">
-                <img src="images/Home_Page/selfportrait.jpg" class="img-thumbnail" alt="...">
+                <img src="https://lh3.googleusercontent.com/9gRTeab7KZcTf6f_QG1JdwRv_sYIbhMbKjXdbW80kOSzPQAgWDOzHcVaTznRb2FaVaXBibFapUWtfPU5F-vznFWU0he-q5Y9q5psHsh0vcl40UBxSD44iEqd7xMtDxctyWz8oEgSOT4jVI-R7NbyNh9o0U1OKXbRrCcgV9q8-Dq5Gd8yoAXTG74QhfuGXz2_7UOgGg7DVS_fpD7PlXmkVDXnPZETdbOHsMsj23ar5mpIGzLiJj6eopMwW6FzJb_eOj6_qIuk510btQNKc0PfxZRDRofizvdpoR4LZhXSL3CeH4Aec2325FTOWduA1k410HDMAACaZaBGJJnFxUOaGNf5ZFk9i-ZgxuRnVc7Wcfhn_YwFrVJShnvneOypwnVFpAbfgDklrAxy_KcMhjEuC7Ay3M9S6qmd2STT-a7_lFAu1wg0VCxBBAM_ENi4vUe8qdHpWS3-N0KT9T6gDIOWjTGZR9_BwK-kXQp2l0-p0UZ4fwjs7qh4wRMee4Z5BSkH35T0aN1nrQ6I1bN2vFbkanPX3CIZ4ICrYi_fnPKXr-ZyxayF7nmZ8WXOIbcVG9g9A0a5ssdC2Q7DHlYtY2Y0n4RoeneJFyKwFIsF46jcjTfactAA4brGwB0WeO71YUW9a6_yMv_IFV4Sj4IngZ4Bqk2aaKWmZ9ZeJvtGsVNVfBcpzJY9jDzqsKzvrh7u=w790-h946-no?authuser=0" class="img-thumbnail" alt="...">
             </div>
             <div class="text col-lg-8 col-sm-12">
                 <h1>Artist-Painter</h1>
@@ -76,7 +76,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Figurative</h5>
                     <p class="card-text text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
             <div class="card col-lg-4 col-sm-12">
@@ -84,7 +83,6 @@
                 <div class="card-body">
                     <h5 class="card-title">Collage</h5>
                     <p class="card-text text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
             <div class="card col-lg-4 col-sm-12">
@@ -92,33 +90,9 @@
                 <div class="card-body">
                     <h5 class="card-title">Process</h5>
                     <p class="card-text text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
         </div>
-        <div id="tablecontact">
-            <table>
-                <thead>
-                    <h2>Contact</h2>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Platform</th>
-                        <th>Handle</th>
-                    </tr>
-                    <tr>
-                        <td>Instagram</td>
-                        <td>Maggieschrec</td>
-                    </tr>
-                    <tr>
-                        <th>Website</th>
-                        <th><a href="https://www.margaretschrecongost.com/" target="blank"> margaretschrecongost.com</a>
-                        </th>
-                    </tr>
-                    </thead>
-            </table>
-        </div>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 

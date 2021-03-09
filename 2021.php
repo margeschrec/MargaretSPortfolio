@@ -9,7 +9,7 @@
     <?php include 'navbar.php'; ?>
     <div class="container">
         <div class="row">
-            <div id="side-nav" class="col-2">
+            <div id="side-nav" class="col-lg-2 col-sm-12">
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a class="nav-link active" aria-orientation="vertical" href="2021.php">2020-2021</a>
@@ -30,9 +30,7 @@
             </div>
         </div>
         <div class="row gallery">
-            <div class="col-lg-2">
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-3 offset-lg-2">
                 <div class="modal fade" id="Modal201" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -85,9 +83,7 @@
             </div>
         </div>
         <div class="row gallery my-4">
-            <div class="col-lg-2">
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-3 offset-lg-2">
                 <div class="modal fade" id="Modal204" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog ">
                         <div class="modal-content">
@@ -123,9 +119,7 @@
             </div>
         </div>
         <div class="row gallery my-4">
-            <div class="col-lg-2">
-            </div>
-            <div class="col-12 col-sm-12 col-lg-3">
+            <div class="col-12 col-sm-12 col-lg-3 offset-lg-2">
                 <div class="modal fade" id="Modal206" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -178,9 +172,7 @@
             </div>
         </div>
         <div class="row my-4">
-            <div class="col-lg-2">
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
+            <div class="col-12 col-sm-6 col-lg-3 offset-lg-2">
                 <div class="modal fade" id="Modal209" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -211,7 +203,7 @@
                     </div>
                 </div>
                 <a data-bs-toggle="modal" data-bs-target="#Modal210">
-                    <img class="w-100" src="https://lh3.googleusercontent.com/o5tKkYbE_OaV4xyhTXb3_PmDAqR8_uqi4MZTt3_JHYiBNJ4dkQ5_EXnjGVWBrpFkduTD-tfM4rX8nroDFeO1x4EoxiGw0QTxYxPFmMR6qEPT_LkZkMWBLKhtU_uVc7_bVgk7o2bfGTU1ZpvyBg-2AqjifbkU7v9abc40O0jHF2JM55CpR87nC7R2bSonyWo-n8mqCWL_LnqLna4q44jZtAkv0BL2h6DqcheVI1eF9eILun6XBOUR_CPHMkyiGQl9aAG3Q8X3IeqY8rStOtTBgtQL3iSA-0Gybb6TDXDlf3IaIuy3l2-mSbZWfiU-2-ELm858pWI22lcszUR75MrKe4tr9Ra6ffrPPauvugq2Ow4T8HMUlxLw7G-pAiqWprT2TWeBxX9iJ-Vde6fMCsBzfVm_E3l_sihBNb5-SUmFoddTn3TZ-cO5Npe5maDLF6aU5kpsRqE8qrEq95rehRXFTIetJIheUhpaO7jcO86ATz0qhc_1XL-ZwZ_3nF9On-DxFBriUD9xOI-rqmxtSXtM1PcCavB2yqEK4Hkwq8RTvmxucKUmPWDdID7KVIb7MU7o7B3_1AmeDxovtY9tB8urj8Tz02X5j_Q263MLlwemQlRuwXF4b5hDc60c-U-pQnVNYsKHodmNvnlhR5sh4lT5E6E6m4Zq4TG6qK62Yh1rvj660HKkNOpeDliCIWNI=w784-h950-no?authuser=0">
+                    <img class="w-100" src="https://lh3.googleusercontent.com/YydcPvsyZYQtZusaH-eEtgkuTbdkZMy1U4w0zrawEHGYYI8Qp_pCdzfSQ6y0-qdtXm-zU-SvdEIB4CPstyXzRLQ78_FtRzDT5eMgmKcg7euZUmWbw2GX4MzncGYf7uY5dH-QiOjG8-X26SsIMRMBvyZ-LLcORhtwBs1OkRr62oA9JW8_O0rPSNi5IzLUjI3Gelkjn5VP_mtMh4J8UKfm16TcWul-XGMNCoYdEdnC9FlpEfnnc7y0SdJC2GyG-s7I7P9sjlg7NLmY63o4LcHuxvnmXFBiPxsloaGTzRk_Lp12CJ5n4RaUiiDik9YJ5F8RZ3BixkE3r27G9QlstLj3RveUIp97vQNMtxoohB-CtFuu4v-Wm2XrRimuaxGoayMz2lSS5mXCeYG98osepPNVvpPOqMqFPD3Jmro8ZWz8h0SrANDGXgIUKd-ozz4OSoefNJeQZ4tkSWjqOE3mWKvLN6Cqg3lAjfvBXxJJr9QY212u3qnYSdxg2Vql6jjwu_DOKc1iPD-8_NY5XvEwuSdcwGWGX88zzxgO0ohtAsDh3rY3Kz1XtfbeVo9xKiISfrLECbjg5WAmPQg0pdzQByG6S-owWqggGDAtVhAnV1KXXwYPw70gsHWJrEfgsor_tgcoFUaDCJPc4hO36cp9sGUwdajqWwZcjhjVseN7ReQ6WJtrI0AuPqMM3XWjAeV3=w691-h950-no?authuser=0">
                 </a>
             </div>
         </div>

@@ -12,16 +12,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="ms_cv.php">CV</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Portfolio
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="ms_inspo.php">BFA Senior Show</a></li>
-                            <li><a class="dropdown-item" href="ms_process.php">2016-2017</a></li>
-                            <li><a class="dropdown-item" href="ms_inspo.php">2018-2019</a></li>
-                            <li><a class="dropdown-item" href="ms_process.php">2020-2021</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="2021.php">Portfolio</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
