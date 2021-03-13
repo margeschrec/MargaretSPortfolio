@@ -9,8 +9,8 @@
 
 <body>
     <?php include 'navbar.php'; ?>
-    <div class="wrapper container">
-        <div class="sidebar col-lg-2 col-md-2 col-sm-12">
+    <div class="wrapper">
+        <div class="sidebar">
             <ul class="navbar navbar-light navbar-expand-lg flex-column ">
                 <li class="nav-item ">
                     <a class="nav-link active" aria-orientation="vertical" href="2021.php">2020-2021</a>
@@ -27,8 +27,10 @@
             </ul>
         </div>
         <div id="content">
-            <div class="col-9">
-                <H2>Paintings 2018-2019</H2>
+            <div class="row col-9">
+                <div class="col-9">
+                    <H2>Paintings 2018-2019</H2>
+                </div>
             </div>
             <div class="row gallery">
                 <div class="col-12 col-sm-6 col-lg-4">

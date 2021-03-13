@@ -46,17 +46,22 @@ body {
 
 .wrapper {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
   align-items: stretch;
 }
 
 @media only screen and (max-width: 700px) {
-  .sidebar.col-lg-2.col-md-2.col-sm-12 {
-    display: inline-block;
-    flex-wrap: nowrap;
+
+  .sidebar {
+    width: 100vw
   }
+
+  .wrapper {
+    flex-flow: wrap;
+  }
+
 }
+
 @media only screen and (min-width: 700px) {
   .sidebar.col-lg-2.col-md-2.col-sm-12 {
     flex-wrap: wrap;
@@ -180,4 +185,5 @@ background-color: gray;
   padding: 5px;
 }
   
+
 
