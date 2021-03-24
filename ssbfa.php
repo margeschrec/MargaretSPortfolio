@@ -6,33 +6,33 @@
     <link rel="stylesheet" href="css/Margaret_Schrecongost.css" />
 </head>
 <body>
+<body>
     <?php include 'navbar.php'; ?>
-    <div class="container">
-        <div class="row">
-            <div id="side-nav" class="col-2">
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-orientation="vertical" href="2021.php">2020-2021</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ms_1819.php">2018-2019</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="1617.php">2016-2017</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ssbfa.php">BFA Senior Show</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-9">
-                <H2>BFA Senior Show</H2>
-            </div>
+    <div class="wrapper">
+        <div class="sidebar">
+            <ul class="navbar navbar-light navbar-expand-lg flex-column ">
+                <li class="nav-item ">
+                    <a class="nav-link active" aria-orientation="vertical" href="2021.php">2020-2021</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="1819.php">2018-2019</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="1617.php">2016-2017</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ssbfa.php">BFA Senior Show</a>
+                </li>
+            </ul>
         </div>
-        <div class="row gallery">
-            <div class="col-lg-2">
+        <div id="content">
+            <div class="row col-9">
+                <div class="col-9">
+                    <H2>BFA Senion Show 2016</H2>
+                </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-5">
+        <div class="row gallery my-5">
+            <div class="col-12 col-sm-6 col-lg-6">
                 <div class="modal fade" id="Modalss01" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -49,7 +49,7 @@
                     <img class="w-100" src="https://lh3.googleusercontent.com/TnwY9-8xw-3oJgWyrwMbPG6C7n2RfvRmekquAJj8mFGc7fqlaR-4LsSn-QfJCn22Jl_k0akMZeuaBdJCyLASyS3tXAbHruNDyUfMgYKSH_3hgzlxofn1qjOsOEcSkx0X6j5SzfkoWxSQptYOxvmd9wQA1D_rscOJ4X-eTCm8D4zgYFtlIJnTNj0qUZNF6Ca0VmFvlEGqkVkHrG4KkucDqgVZCTYZbkHeTejrBcbp3FArk6b6QiqMUkcNe80aueSQcYmy43inUJBEOljUjRNHBtccMSzMNWSJRDlBnX1DGobFn7RSMvEE6MlF6lQm-UK62fTdtWdG-8clS7kMjk70acx1S2GXrCmLw-gp1nzJKW5tVOJkflyGXHk530xEGTVrK9oZ0OcfoUHjWudI33CwNg6UJd8F9wS7pGuP9LvEknQG175gTtNKlvLgmtU8EKYceN9felqNLZ131UD2UwM5Ngsk-N76bjWQF6buG_tzBwIuTHbJFvkrLZM1eDri2j6F7RF-wNm3gIvpGIpvvMtmPkOAknxzNLpcLGozI_nQCMocbTFh3CPjPMx9_cqsMMM_Z2rNQkYKbfJXsAfYEpOse4-ucfOO5fverQfl7rjFXYUIi9Kd_oQe_iNtpA-WgBJuLaA7R0Bq1KbIdIhefqb-XVd_kopHz_bKqJwumEfNF7nRJnm-2WmsqqGdpt70=w1231-h947-no?authuser=0">
                 </a>
             </div>
-            <div class="col-12 col-sm-6 col-lg-5">
+            <div class="col-12 col-sm-6 col-lg-6">
                 <div class="modal fade" id="Modalss02" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -67,10 +67,8 @@
                 </a>
             </div>
         </div>
-        <div class="row gallery">
-            <div class="col-lg-2">
-            </div>
-            <div class="col-12 col-sm-6 col-lg-5">
+        <div class="row gallery my-5">
+            <div class="col-12 col-sm-6 col-lg-6">
                 <div class="modal fade" id="Modalss1" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -87,7 +85,7 @@
                     <img class="w-100" src="https://lh3.googleusercontent.com/fYFOEfAPRpW7bopoNyKX2G6RnGSrKnwWzs7HJy8t3HGAs5Fh061XgWGEU7kShfyJBsLVCSR59ezTkhH3jI_tEEry6NL0oSPqHQJE_OZESGpHY0QlYx3OpU6DlhdI7PyYQUPLP7mFshT4EDNT1lAyuFxdWEjstAxUvca2hzBY6ehiAXWMlMiHmZM0oi7N9RLbQZYBTdyAGJ7zQfiDNs90MP83bwbqx-x3ojiL0AOWo7_Dq-haZf9ZdaA0OAlBxpUBFjJTTTFZhLx0zKWUwdt0RnOa8DclIndPA8jBzgILC2bIClIuCfVe8mFHHMfjXsmFeNQuMJntNTnh9DbxRDHiFI0KPjoh5F5ro-O6lfPRfC21xs0ZyG5po319sGbV3NiNoneYuv5TmwXPbJvruUkvO7PGQJBNW-uP0mPLCvUnsVmuj16Wvw32Do2YIq1PVyZMO9GZSRH1ZNT8tC4FUvYMUhHi2cjr3B7-85NVu6vJgOe1384NGCjNbX4rzn49KFy03e5TmoYHooLbTkRBx2BTkgGBj2ETLhjVvAbJcx7-KrRdHMf_dCr_cA8a6j9gFZoTbuhwtcqF5QxL1M8ecf5PxU6zS7pUJJCz2xH9qRDBlzVH5YeujrhHg3zOmdFramcYnqjFvgGnu5uXegWi2jnbxNOh2XmNt794SuVBTJ-8XD2xcn75aeAOFXFJAksg=w1319-h947-no?authuser=0">
                 </a>
             </div>
-            <div class="col-12 col-sm-6 col-lg-5">
+            <div class="col-12 col-sm-6 col-lg-6">
                 <div class="modal fade" id="Modalss2" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -106,9 +104,7 @@
             </div>
         </div>
         <div class="row gallery my-4">
-            <div class="col-lg-2">
-            </div>
-            <div class="col-12 col-sm-6 col-lg-5">
+            <div class="col-12 col-sm-6 col-lg-6">
                 <div class="modal fade" id="Modalss3" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog ">
                         <div class="modal-content">
@@ -125,7 +121,7 @@
                     <img class="w-100" src="https://lh3.googleusercontent.com/Sefgk-hIzIt8G4Gj6R09ouFcEYWb_nytSair8mtNuYIJb0wr2DUHpjVlFMKtzrZygpw3CzQc9ozJRTK_Hh_ATIWgrfB81PaGq-mwhVY-B8EBo1jd03WJbGCk1xTXijR0eE7Xg7A_pNXjkLYCf0c4heChfM5KNizCQeyPb7A2q-nsep7-g8uK-pot6XFbeWbRj9w0giQf4il5uVjFu_K7rJRpoTdPdDslzyDVkPUXmvvzv30ndGfRuhFTIBoDAC-SnsgAwejj_BE4qFLd2vlzW7z0v3ANhQ59fRzMT-3dKEPRf78qIlup83hlotgYuNwVowJKTD136ZDQMOLHIm19N9f1dU6CRIbDOjW_bj-GBH4Ln8HbiMAKe4enh2FlCy7Nyo4drsFVBGKPlNQxsrQEcgwVsEYbU-JYSVyeeiwMrlAo1917GkWzgqtQBymwcYbDBiRiLk9c35A1th7gb6U-7gkXuuezu2U-jXF76BzYeqhGIbZYbcJjgLax2QEKOwj0fwyO8pqDekVcxEsRSt7IXHgan_fN4xnA5Dr9QS26ip-tQNPTuFz8egnwiHnOA64lvPZrAxohFSgh-tgISR1WS7c1t85eCesBwWpbn0f2e-dPvK0dHuNR2IzKNf9rhK4SGIf3O3_creFBbRwb_7sGuNh78XsjKHB_kAy6slf7xil89qe4ZkzfLvxucD9g=w1417-h948-no?authuser=0">
                 </a>
             </div>
-            <div class="col-12 col-sm-6 col-lg-5">
+            <div class="col-12 col-sm-6 col-lg-6">
                 <div class="modal fade" id="Modalss4" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -144,9 +140,7 @@
             </div>
         </div>
         <div class="row gallery my-4">
-            <div class="col-lg-2">
-            </div>
-            <div class="col-12 col-sm-12 col-lg-5">
+            <div class="col-12 col-sm-12 col-lg-6">
                 <div class="modal fade" id="Modalss5" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -163,7 +157,7 @@
                     <img class="w-100" src="https://lh3.googleusercontent.com/tCSlHjr9zOe1uxmsEy8YYgl9oNTgbCxbdXBVYOA9fnXV7Ww1m3AOm-A3nRpocdp_-2TTYf9jAA6BSqJGxhpcUgErlzEjPUEY2OvHOyUHejCWGbikzOOJDuhj1wUDfDdiY9aCct-JSEEh3icOexdA2A37Gq5biGKSyo26w4_ZGEdi0FIDXjMP9WxrtnkvGaa47f0RN9I6WbbAkY5i72blI2TGGwWRnvb8yte0WdgPspO2vukCk_8lmapMF5MB2UKOIis744A8gYBUNK483yAlk9FecziCLz5n8QJLmlb-Q4H4Br5iqVQJNlS94LU2kWKprlfgKBrbq1LJnKyE03XtJZ3QZqhZH8-EP96FT0otIKh186LL5gKW8xJj7PCByQvWXca8Ja3ICsc_5MOykLOMvxoN96-OhPwLyR5pbSNHpNE3f1scn3U0Ux-j_DE2oCfxK6tnyLC98E7Q9JqLmn5iA4ZL_rkE6f7rntsgLetvp4WnboJ2GAtKOOp6APmFvtHpz7mTOmuBiRbSeMjlsASKWBoQVz8Rvm_uuDfeHJ0-NZZoHdvpAxwQkOlmI8tgFyCwt-3mtmnGXTWp4Ljo_ccrC5rP5vneqKHWWvQafMiIPdw5jSGauAyIE67SsbjsPRMOzNDCz56aWB4qbQk3twSfjpkXvVj0paJlWF7pYNsrJwHXdmM-aDD7SU5-DVeF=w1336-h947-no?authuser=0">
                 </a>
             </div>
-            <div class="col-12 col-sm-12 col-lg-5">
+            <div class="col-12 col-sm-12 col-lg-6">
                 <div class="modal fade" id="Modalss6" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -182,8 +176,6 @@
             </div>
         </div>
         <div class="row my-4">
-            <div class="col-lg-2">
-            </div>
             <div class="col-12 col-sm-6 col-lg-6">
                 <div class="modal fade" id="Modalss7" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -219,10 +211,8 @@
                 </a>
             </div>
         </div>
-        <div class="row gallery">
-            <div class="col-lg-2">
-            </div>
-            <div class="col-12 col-sm-6 col-lg-5">
+        <div class="row gallery my-5">
+            <div class="col-12 col-sm-6 col-lg-6">
                 <div class="modal fade" id="Modalss9" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -239,7 +229,7 @@
                     <img class="w-100" src="https://lh3.googleusercontent.com/vN5wOa52FlzMZs9EEmgkH5Xgor6e695SUPeA3QVzN8ouwgmvlOZyVU8N0Nz5ozoZYM6YAoK_1wAq1XcxNK6z4BwbJsCYP_beuuWGyhYJzt6qPAO2vgKtvruVo7VnCJzP2sOoZoBmsy4FO8HsELCK1GT5-SCXX043nuBFoE9GemOVwJEoPuy_34TjONHQdunaU4IDPmJ-rcjsYVio1qkArAhXQkBfFCC4YiSvRdXrmJdIlFnmO0aBLQaXo_TZmxQCZZ0MuKugbUr8KVg0lgHHwKWvL8Ijdm1ryCQuyC_GwKj4HpMKGR9HJubU3MkKvb1sx8UEjeoRIAE61mw8Bkq2O1Hi0AaR9WMVTTOL-SgZ5MMyiu0IQtsvL_r_v5-YtG18S0Jt2ojCqB3DGC6-WNs0hKNC2nrDZr3cH0NB1GRCO5o08xdXdqMTwVnGcRK5iia_yBqjyrfUmeVqtovygIFJyxGjPXS1E_YALISt1QqAcJUifsFchdMYuO2vQQnFMI0hLKSo_csFaoZiAz_gxFWO_B_9OsdnZL9_JiGP1rmSDqB4QQyE_cWf9sex3q4hMborZ7lPGzNepIdD7IDwzMRYftRPf5yIjpqdyzzUjTlPaGIC9nViK9lVdL-fEBg0hVIA3MswLHP_7zgw_U_QCgeX366h4sj3h1c62hRhgV8Z12xP4a2062Z1mE6w_woH=w1182-h947-no?authuser=0">
                 </a>
             </div>
-            <div class="col-12 col-sm-6 col-lg-5">
+            <div class="col-12 col-sm-6 col-lg-6">
                 <div class="modal fade" id="Modalss10" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -258,8 +248,6 @@
             </div>
         </div>
         <div class="row gallery my-4">
-            <div class="col-lg-2">
-            </div>
             <div class="col-12 col-sm-6 col-lg-4">
                 <div class="modal fade" id="Modalss11" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">

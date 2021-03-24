@@ -40,3 +40,19 @@
 </body>
 
 </html>
+
+<div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+      		<div class="carousel-caption d-none d-md-block">
+        	<h5>First slide label</h5>
+        	<p>Some representative placeholder content for the first slide.</p>
+      	</div>
+      </div>
+    </div>
+  </div>
+</div>

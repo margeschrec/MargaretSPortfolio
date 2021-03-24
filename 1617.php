@@ -6,32 +6,32 @@
     <link rel="stylesheet" href="css/Margaret_Schrecongost.css" />
 </head>
 <body>
+<body>
     <?php include 'navbar.php'; ?>
-    <div class="container">
-        <div class="row">
-            <div id="side-nav" class="col-2">
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-orientation="vertical" href="2021.php">2020-2021</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ms_1819.php">2018-2019</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="1617.php">2016-2017</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ssbfa.php">BFA Senior Show</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-9">
-                <H2>Paintings 2016-2017</H2>
-            </div>
+    <div class="wrapper">
+        <div class="sidebar">
+            <ul class="navbar navbar-light navbar-expand-lg flex-column ">
+                <li class="nav-item ">
+                    <a class="nav-link active" aria-orientation="vertical" href="2021.php">2020-2021</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="1819.php">2018-2019</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="1617.php">2016-2017</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ssbfa.php">BFA Senior Show</a>
+                </li>
+            </ul>
         </div>
-        <div class="row gallery">
-            <div class="col-lg-2">
+        <div id="content">
+            <div class="row col-9">
+                <div class="col-9">
+                    <H2>Paintings 2016-2017</H2>
+                </div>
             </div>
+        <div class="row gallery">
             <div class="col-12 col-sm-6 col-lg-5">
                 <div class="modal fade" id="Modal161" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
@@ -68,8 +68,6 @@
             </div>
         </div>
         <div class="row gallery my-4">
-            <div class="col-lg-2">
-            </div>
             <div class="col-12 col-sm-6 col-lg-5">
                 <div class="modal fade" id="Modal164" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog ">
@@ -106,8 +104,6 @@
             </div>
         </div>
         <div class="row gallery my-4">
-            <div class="col-lg-2">
-            </div>
             <div class="col-12 col-sm-12 col-lg-5">
                 <div class="modal fade" id="Modal167" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -144,8 +140,6 @@
             </div>
         </div>
         <div class="row my-4">
-            <div class="col-lg-2">
-            </div>
             <div class="col-12 col-sm-6 col-lg-6">
                 <div class="modal fade" id="Modal163" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
