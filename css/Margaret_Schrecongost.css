@@ -172,7 +172,7 @@ body {
   max-width: 500px;
 }
 
-.carousel-item {
+.carousel-inner.car-process {
   max-height: 600px;
   max-width: 500px;
 }

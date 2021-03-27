@@ -22,7 +22,7 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner car-process">
                     <div class="carousel-item active">
                         <img src="https://lh3.googleusercontent.com/aMnLggUkm-SFahLaRxQTMZ4MuyClEClpzz8vMMS8xmQ2XkwFM81_kB2L_ul_vF2N0JbE_txmZayHnJqDtQuqWnf2_8S6k_XwLMw_1oWhfoBrziyYdbcjSvX9MyANAg5nZPCXoXDayLB9uqXZPUXQ93sG7YVohqFEEjFv88qEXGNU__u1LCidGPtHXhUsObBixOlKAD1l8j4sfhyK0N_3qjXFxb4P81zyhubwhkPEEL_Jm4m3uoTPsl8I8bE4FaXBaheiJKK3zJkuY7qBLk5-OREF6BkZBMwAeTN-L7MWthf45_EbjjxoozhfKVJXjoxTIaQ7j_OX01Ws1O0931Y-6v50JrPK7IJBwyY3FW5MFfAhdeqHW8OR615dMLF8xOXYNKZ0GV_PcNPyHSx3gWxLos60jcKjEqEQtOOsxCvecuvXZRUVRTWZeN8SNl5S2yRYIE1o2ljhcdIeRHJJapfOqzs4VcAXlkE6VmcnHOceavG9SLO6ED0YPVpRqGzNv22hOoBSDDRcBM_XEqxp-C1bCid-xFbOWlstVEhK59bTnWsN69O6Qg0DAjXlN706pfL_QrVPsaqiYMzU0y_gQpLWZIQYd9RlCsrlcV6Ld3Sm1M1Uy2zHtHKdSh25kEW-D5zyp4_7SDwAujIMZPQHxum5TxCIrdnzjLMHY6dJGOdCSX2rFsSsF56xOjdb7KIZVFamNoVlS3t3spcn-S_cNs0zs-k=w727-h969-no?authuser=1" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
