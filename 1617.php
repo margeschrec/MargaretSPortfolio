@@ -163,19 +163,3 @@
 </body>
 </html>
 
-
-.wrapper {
-	position: absolute;
-	overflow: hidden;
-	width: 100%;
-	height: 100%;
-}
-/* .wrapper img{
-    position: absolute;
-	display: block;
-    top: 0;
-    left: 0;
-	width: 100%;
-	height: 100%;
-    filter: brightness(80%);
-} */

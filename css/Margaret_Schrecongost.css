@@ -1,8 +1,9 @@
 /* VARIABLLES */
 
 :root {
-  --bgColor: #888888;
-  --bgText: #A0A0A0;
+  --navcolor: #5a5a5a;
+  --bgColor: #9c9c9c;
+  --bgText: #bebebe;
   --linkColor: #f5f5f5;
 }
 
@@ -10,7 +11,7 @@
 
 
 body {
-  background-color: var(--bgColor);
+  background-color: var(--bgColor) !important;
 }
 
 .text{
@@ -40,14 +41,14 @@ body {
   width: 320px;
   height: 320px;
   border-radius: 50%;
+  margin: auto;
   object-fit: cover;
 }
 
 /* NAVBAR*/
 .navbar {
   position: sticky;
-  background-color: black;
-  opacity: .5;
+  background-color: var(--navcolor);
 }
 .nav {
   text-align: center;
@@ -67,6 +68,10 @@ body {
 .navbar li {
   padding: 0px;
   text-transform: uppercase;
+  list-style: none;
+}
+.navbar-nav{
+  list-style: none;
 }
 
 .navbar a {
@@ -77,7 +82,7 @@ body {
 }
 
 .dropdown-menu.show {
-  background-color: #111416;
+  background-color: var(--navcolor);
 }
 
 /* PORTFOLIO PORTFOLIO-SIDEBAR */
@@ -144,7 +149,8 @@ body {
 }
 
 /* CV */
-#CV{
+
+/* #CV{
   background-color: darkgrey;
   font-family: Verdana, sans-serif;
   padding: 20px 10px 70px 35px;
@@ -162,7 +168,7 @@ body {
 #CV li{
   display: block;
   padding: 5px;
-}
+} */
 
 /* Process Carousel */
 
