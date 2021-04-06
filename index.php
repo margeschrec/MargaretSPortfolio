@@ -1,37 +1,47 @@
 <?php
+ini_set('display errors', 1);
+require __DIR__.'/vendor/autoload.php';
 
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Factory\AppFactory;
 
-require __DIR__ . '/../../vendor/autoload.php';
-require '../db/db.php';
+// var_dump($_SERVER);
+
+// require '../db/dbconnect.php';
 
 $app = AppFactory::create();
+// $app->setBasePath('/src');
 
 
 $app->addRoutingMiddleware();
 
 $errorMiddleware = $app->addErrorMiddleware(true, true, true);
 
+$app->get('/', function (Request $request, Response $response, $args) {
+    // $name = $args['name'];
+    $response->getBody()->write(include("home.php"));
+    return $response;
+});
 
-// $app->get('/{image}', function (Request $request, Response $response, $args) {
-//     $image = $args['image'];
-//     $response->getBody()->write(
-//          '<a href="https://www.google.com/search?q=' . $image . '&sxsrf=ALeKk03rwuvHtKwkbUYzYm8BFiADwy9EeQ:1617301551404&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjO49zj1d3vAhXITd8KHZWSBM4Q_AUoAXoECAEQAw&biw=2560&bih=1330"> Link to google images</a>'
-//     );
-//     return $response;
-// });
 
-$app->get('/{customer}', function (Request $request, Response $response, $args) {
-    $cust = $args['customer'];
+$app->get('/{image}', function (Request $request, Response $response, $args) {
+    $image = $args['image'];
     $response->getBody()->write(
-    '<script language="javascript">
-         alert("congratualations! ' . $cust . ' you are the 1,000,000,000,000th customer!")
-         </script>'
+         '<a href="https://www.google.com/search?q=' . $image . '&sxsrf=ALeKk03rwuvHtKwkbUYzYm8BFiADwy9EeQ:1617301551404&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjO49zj1d3vAhXITd8KHZWSBM4Q_AUoAXoECAEQAw&biw=2560&bih=1330"> Link to google images</a>'
     );
     return $response;
 });
+
+// $app->get('/user/{customer}', function (Request $request, Response $response, array $args) {
+//     $cust = $args['customer'];
+//     $response->getBody()->write(
+//     '<script language="javascript">
+//          alert("congratualations! ' . $cust . ' you are the 1,000,000,000,000th customer!")
+//          </script>'
+//     );
+//     return $response;
+// });
 
 // $app->get('/customer/{name}/{age: [0-9]+}', function (Request $request, Response $response, $args) {
 //     $name = $args['name'];
@@ -75,7 +85,7 @@ $app->get('/{customer}', function (Request $request, Response $response, $args) 
 // });
 
 // routes files include
-require 'routes.php';
+// require 'routes.php';
 
 
 $app->run();
