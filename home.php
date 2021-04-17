@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MSchrecongost, Artist</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/Margaret_Schrecongost.css" />
+    <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
@@ -52,39 +52,43 @@
             </div>
         </div>
         <div class="text text-center row gy-4">
-            <div class=" col gx-4 ">
+            <div id="homeMainText">
                 <h1>Artist-Painter</h1>
-                <p>My name is Margaret Schrecongost, I am a visual artist born and raised in Buffalo Ny. </p>
-                <br>
-                <p>Artist Statement: I make narrative work. I recontextualize the genere of historical narrative paintings and
+                <p>My name is Margaret Schrecongost, I am a visual artist born and raised in Buffalo Ny.
+                    I recontextualize the genere of historical narrative paintings and
                     the female nude, by painting with reference to my own body in my figurative work. In my work, the female
-                    form transform from passive object to self portrait. I am the author, subject, and viewer.</br>
-
+                    form transform from passive object to self portrait. I am the author, subject, and viewer.
                     My collage pieces serve to create narrative, without the weight of the figure. Composing memory-like
                     snapshots of objects, meaning becomes playful. The objects place memory against the unknown future. These
                     anxious narratives were made in isolation. Placing fear and axiety hand in hand with humor. Using humor to
                     temper the anxiety of the future. Tension, anxiety, humor. </p>
             </div>
         </div>
-        <div class="text-center align-middle row my-4">
+        <div class="text-center align-middle row my-4" id="homeCards">
             <div class="card text-center col-lg-4 col-sm-12">
                 <img src="https://lh3.googleusercontent.com/pw/ACtC-3fmFwkuJBzrflq3xZrfkXzcgbH_0hvzx6GQvyeoX6XMflmfa5bHWDmweM5_ht5lqXpwUq1e1Ys7xun6chhHrOsJLSwvV06m7ToC9M1Z6KKG-gl_7qMSkQbJ3ZZ7i54hiBooZoGo8S0qcpHXIcaII66W=w1257-h1331-no?authuser=0" class="align-middle card-img-top img-fluid " alt="figure detail">
                 <div class="card-body">
-                    <h5 class="card-title">Figurative</h5>
+                    <a href="2021.php">
+                        <h5 class="card-title">Figurative</h5>
+                    </a>
                     <p class="card-text text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
             </div>
             <div class="card col-lg-4 col-sm-12">
                 <img src="https://lh3.googleusercontent.com/pw/ACtC-3cQukaYgwlhDI1ENgguNfEbktcaTq95d5HMFry_UyHiSYQ1pPnsQNFwAGcxTNN7Sakq_u3L5pRzRAig9KGIHP9hpUpjuZ2Dyb2ljz82dXa8V9Xz5bIPCKcGGdJLZ1mqGdTNP1cCffBNsGn4hADRvxkP=s500-no?authuser=0" class="align-middle card-img-top img-fluid" alt="collage detail">
                 <div class="card-body">
-                    <h5 class="card-title">Collage</h5>
+                    <a href="2021.php">
+                        <h5 class="card-title">Collage</h5>
+                    </a>
                     <p class="card-text text">This card has supporting text below as a natural lead-in to additional content.</p>
                 </div>
             </div>
             <div class="card col-lg-4 col-sm-12">
                 <img src="https://lh3.googleusercontent.com/pw/ACtC-3fkf5J9nf5rPTOsu8gHKfT7LQY_7DjcB2n_1u6eAUpFQezALuiD7YSLjPNOLQEbWaLkPBGdPRTaIfwqHVuqo8qfQeSeH_DJDb9mffY1M96Amo5ijidX-GksP9gBDIARLrAcj2w9vBBJiil4npmvCX9P=w665-h886-no?authuser=0" class="card-img-top img-fluid" alt="process detail">
                 <div class="card-body">
-                    <h5 class="card-title">Process</h5>
+                    <a href="process.php">
+                        <h5 class="card-title">Process</h5>
+                    </a>
                     <p class="card-text text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                 </div>
             </div>

@@ -2,7 +2,7 @@
 
 :root {
   --navcolor: #5a5a5a;
-  --bgColor: #9c9c9c;
+  --bgColor: #cecece;
   --bgText: #bebebe;
   --linkColor: #f5f5f5;
 }
@@ -18,14 +18,13 @@ body {
   font-family: Verdana, sans-serif;
   text-align: center;
   padding: 15px 10px;
-  border-radius: 10px;
-  border-style: double;
-  background-color: var(--bgText);
 }
 
-.carousel-item{
-  max-height: 600px;
+#homecarousel .carousel-item{
+  max-height: 45rem;
 }
+
+#homecarousel p
 
 .modal-content {
   background-color: var(--bgColor);
@@ -83,6 +82,35 @@ body {
 
 .dropdown-menu.show {
   background-color: var(--navcolor);
+}
+
+/* HOME PAGE */
+
+#homeMainText {
+  background: linear-gradient(to bottom, rgb(150, 150, 150), rgba(206, 206, 206, 1));
+  margin: auto;
+  min-height: 33rem;
+  text-align: center;
+  padding: 12rem 0;
+}
+
+#homeMainText p {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  padding: 3rem;
+}
+
+
+#homeCards .card-text{
+  min-height: 6.5rem;
+
+}
+
+#homeCards .card-title {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+
 }
 
 /* PORTFOLIO PORTFOLIO-SIDEBAR */
@@ -150,25 +178,6 @@ body {
 
 /* CV */
 
-/* #CV{
-  background-color: darkgrey;
-  font-family: Verdana, sans-serif;
-  padding: 20px 10px 70px 35px;
-  border-style: double;
-  border-radius: 5px;
-  width:75%
-
-}
-
-#CV p{
-  font-family: Verdana, sans-serif;
-  font-weight: bold;
-}
-
-#CV li{
-  display: block;
-  padding: 5px;
-} */
 
 /* Process Carousel */
 
@@ -191,3 +200,4 @@ body {
 .flex-container img {
   /* max-width:fit-content; */
 }
+
