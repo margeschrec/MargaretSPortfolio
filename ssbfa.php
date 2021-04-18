@@ -27,7 +27,7 @@
         </div>
         <div id="content">
             <div class="row col-9">
-                <div class="col-9">
+                <div class="col-9 portfolioTitle">
                     <H2>BFA Senior Show 2016</H2>
                 </div>
             </div>

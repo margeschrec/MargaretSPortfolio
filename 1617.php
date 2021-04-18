@@ -27,7 +27,7 @@
         </div>
         <div id="content">
             <div class="row col-9">
-                <div class="col-9">
+                <div class="col-9 portfolioTitle">
                     <H2>Paintings 2016-2017</H2>
                 </div>
             </div>

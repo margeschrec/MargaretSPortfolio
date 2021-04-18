@@ -12,6 +12,7 @@
 
 body {
   background-color: var(--bgColor) !important;
+  padding: 0;
 }
 
 .text{
@@ -24,7 +25,6 @@ body {
   max-height: 45rem;
 }
 
-#homecarousel p
 
 .modal-content {
   background-color: var(--bgColor);
@@ -80,6 +80,10 @@ body {
   padding-right: 15px;
 }
 
+.navbar-toggler .navbar-collapse {
+  background-color: aqua;
+  color: #bebebe;
+}
 .dropdown-menu.show {
   background-color: var(--navcolor);
 }
@@ -98,22 +102,46 @@ body {
   width: 70%;
   margin: auto;
   text-align: justify;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
   padding: 3rem;
 }
 
 
 #homeCards .card-text{
   min-height: 6.5rem;
-
 }
 
 #homeCards .card-title {
   text-transform: uppercase;
   font-size: 1.5rem;
+}
 
+#homeCards {
+  margin-bottom: 5rem;
+}
+
+#homeCards a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+#homeCards a:hover {
+  color: aqua;
 }
 
 /* PORTFOLIO PORTFOLIO-SIDEBAR */
+
+.portfolioTitle {
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  padding: 1.25rem;
+}
+
+.sidebar {
+  background: linear-gradient(to bottom, rgb(82, 82, 82), rgba(206, 206, 206, 1));
+}
+
 #content {
   margin-right: 20px;
   margin-left: 20px;
@@ -180,11 +208,14 @@ body {
 
 
 /* Process Carousel */
-
+#processContainer {
+  background:  linear-gradient(to bottom, rgb(150, 150, 150), rgba(206, 206, 206, 1));
+}
 
 #carouselprocess {
   max-height: 600px;
   max-width: 500px;
+
 }
 
 .carousel-inner.car-process {
@@ -197,7 +228,4 @@ body {
   max-height: 500px;
 }
 
-.flex-container img {
-  /* max-width:fit-content; */
-}
 
